@@ -1,0 +1,10 @@
+../Core/Src/main.c:77:5:main	2
+../Core/Src/main.c:180:6:SystemClock_Config	4
+../Core/Src/main.c:227:6:vApplicationGetIdleTaskMemory	1
+../Core/Src/main.c:248:6:periodic_task	3
+../Core/Src/main.c:283:6:vApplicationStackOverflowHook	1
+../Core/Src/main.c:300:6:MyTaskSwitchedIn	4
+../Core/Src/main.c:321:6:MyTaskSwitchedOut	4
+../Core/Src/main.c:359:6:show_specific_task_states	8
+../Core/Src/main.c:389:6:vApplicationTickHook	3
+../Core/Src/main.c:411:6:Error_Handler	1

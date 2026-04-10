@@ -1,0 +1,5 @@
+../Core/Src/Policies.c:34:13:prvApplyRanks	32	static
+../Core/Src/Policies.c:55:6:vRM_UpdatePriorities	72	static
+../Core/Src/Policies.c:89:6:vDM_UpdatePriorities	72	static
+../Core/Src/Policies.c:121:6:vFIFO_UpdatePriorities	80	static
+../Core/Src/Policies.c:171:6:vEDF_UpdatePriorities	80	static

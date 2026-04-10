@@ -1,0 +1,99 @@
+=== Execution ===
+MAIN START
+Tasks created and registered:
+  Task A: period=200  deadline=200  execution_time=80
+  Task B: period=300  deadline=300  execution_time=80
+  Task C: period=1000  deadline=1000  execution_time=600
+Policy: Earliest Deadline First (EDF)
+Starting scheduler
+[IN ] IDLE at 0
+[OUT] IDLE at 1
+[IN ] A at 1
+[OUT] A at 81
+[IN ] B at 81
+[OUT] B at 162
+[IN ] C at 162
+[OUT] C at 200
+[IN ] A at 200
+[OUT] A at 280
+[IN ] C at 280
+[OUT] C at 300
+[IN ] B at 300
+[OUT] B at 381
+[IN ] C at 381
+[OUT] C at 400
+[IN ] A at 400
+[OUT] A at 480
+[IN ] C at 480
+[OUT] C at 600
+[IN ] A at 600
+[OUT] A at 680
+[IN ] B at 680
+[OUT] B at 760
+[IN ] C at 760
+[OUT] C at 800
+[IN ] A at 800
+[OUT] A at 880
+[IN ] C at 880
+[OUT] C at 900
+[IN ] C at 900
+[OUT] C at 1000
+[IN ] A at 1000
+[OUT] A at 1080
+[IN ] B at 1080
+[OUT] B at 1161
+[IN ] C at 1161
+[OUT] C at 1200
+[IN ] A at 1200
+[OUT] A at 1280
+[IN ] B at 1280
+[OUT] B at 1360
+[IN ] C at 1360
+[OUT] C at 1400
+[IN ] A at 1400
+[OUT] A at 1481
+[IN ] C at 1481
+[OUT] C at 1500
+[IN ] B at 1500
+[OUT] B at 1580
+[IN ] C at 1580
+[OUT] C at 1600
+[IN ] A at 1600
+[OUT] A at 1680
+[IN ] C at 1680
+[OUT] C at 1797
+[IN ] IDLE at 1797
+[OUT] IDLE at 1800
+[IN ] A at 1800
+[OUT] A at 1880
+[IN ] B at 1880
+[OUT] B at 1961
+[IN ] IDLE at 1961
+[OUT] IDLE at 2000
+[IN ] A at 2000
+[OUT] A at 2080
+[IN ] C at 2080
+[OUT] C at 2100
+[IN ] B at 2100
+[OUT] B at 2181
+[IN ] C at 2181
+[OUT] C at 2200
+[IN ] A at 2200
+[OUT] A at 2280
+[IN ] C at 2280
+[OUT] C at 2400
+[IN ] A at 2400
+[OUT] A at 2480
+[IN ] B at 2480
+[OUT] B at 2560
+[IN ] C at 2560
+[OUT] C at 2600
+[IN ] A at 2600
+[OUT] A at 2680
+[IN ] C at 2680
+[OUT] C at 2700
+[IN ] B at 2700
+[OUT] B at 2780
+[IN ] C at 2780
+[OUT] C at 2800
+[IN ] A at 2800
